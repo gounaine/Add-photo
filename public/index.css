@@ -1,0 +1,84 @@
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+ .img-add{
+  
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    
+  
+  margin-top:50px;
+
+  width: 90%;
+ 
+  
+  transition: ease 1s;
+  
+
+}
+.Add:hover .img-add {
+    
+  opacity: 0.5;
+  transform: scale(1.2,1.2);
+}
+
+
+
+
+.button{
+    border: none;
+    border-radius: 15px 50px;
+   
+  
+}
+.btn-add{
+    border: none;
+    border-radius: 20px 50px;
+    margin-top: 12px;
+    
+
+}
+.img-add {
+    cursor: pointer;
+    width: 100px;
+    height: 60%;
+    border-radius: 10px;
+   
+  
+   
+
+}
+b{
+    display: flex;
+}
+
+
+
+  body>div{
+    position: relative;
+  }
+.list-choisier{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    height: 40%;
+    
+}  
+.img-scroll{
+    height: 100%;
+    overflow: auto;
+}
+.spanFirst-add{
+  color:red;
+  
+  
+
+}
+.img-panier{
+  border-radius: 50%;
+}
+
